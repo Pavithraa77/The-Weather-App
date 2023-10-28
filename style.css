@@ -1,0 +1,154 @@
+* {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  background-color: #000;
+  color: #fff;
+  margin: 30px auto 30px;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.7);
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+.search input:hover {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+  box-shadow: 0px 0px 20px rgba(0, 191, 255, 0.7);
+}
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.search button:hover {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  box-shadow: 0px 0px 18px rgba(0, 191, 255, 0.7);
+}
+.search button img {
+  width: 25px;
+}
+
+.weather-icon {
+  width: 180px;
+  margin-top: 15px;
+}
+.weather h1 {
+  font-size: 80px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.weather h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+.humidity,
+.wind {
+  font-size: 28px;
+  margin-top: -6px;
+}
+.weather {
+  display: none;
+}
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+  color: #ff0000;
+}
+.bottom-right {
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.subscribe-button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  outline: 2px solid rgba(0, 191, 255, 0.3);
+}
+
+.subscribe-button:hover {
+  box-shadow: 0px 0px 10px rgba(0, 191, 255, 0.7);
+}
